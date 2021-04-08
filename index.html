@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: skyblue;
+  padding: 20px;
+  padding-left: 230px;
+  /* text-align: center; */
+  /* height: 150px; */
+}
+.header h1{
+    padding-top: 5px;
+    margin-bottom: -5px;
+    /* font-weight: 900px; */
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: grey;
+  padding-left: 220px;
+
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  /* text-align: center; */
+  padding: 14px 16px;
+  /* padding-left: 230px; */
+
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 2800px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  /* padding: 10px; */
+}
+
+/* Left and right column */
+/* .column.leftside {
+  width: 20%;
+}
+
+.column.rightside {
+  width: 30%;
+} */
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+.row{
+  clear: both;
+}
+.space{
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><b> RS - MQF 960 V .2</b></h1>
+  <p><b> Free Responsive Template Framework </b></p>
+</div>
+
+<div class="topnav">
+  <a href="#">HOMEPAGE</a>
+  <a href="#">DROP1</a>
+  <a href="#">STYLE DEMO</a>
+  <a href="#">FULL WIDTH</a>
+  <a href="#">GALLERY</a>
+  <a href="#">PORTFOLIO</a>
+  <a href="#">ALONG LINK TEXT HERE</a>
+  <a href="#">DROP2</a>
+
+
+
+</div>
+
+
+<div class="space">
+
+
+<div class="row">
+  <h3>Half Columns</h3>
+  <div class="column leftside" style="width: 47%; background : skyblue; padding-right: 2px;" >
+    <p>One Half</p>
+  </div>
+  <div class="column leftside" style="width: 6%;" >
+    <p></p>
+  </div>
+  
+  <div class="column middle" style="width: 47%; background : blue; padding-right: 2px;">
+    <p>One Half</p>
+  </div>
+  
+  <!-- <div class="column rightside">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div> -->
+</div>
+
+<div class="row">
+  <h3>Third Columns</h3>
+  <div class="column leftside" style="width: 30%; background : skyblue; padding-right: 2px;" >
+    <p>One Third</p>
+  </div>
+  <div class="column leftside" style="width: 5%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 30%; background : blue; padding-right: 2px;">
+    <p>One Third</p>
+  </div>
+  <div class="column leftside" style="width: 5%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 30%; background : skyblue; padding-right: 2px;">
+    <p>One Third</p>
+  </div>
+</div>
+<div class="row">.</div>
+
+
+<div class="row">
+  <div class="column leftside" style="width: 31%; background : skyblue; padding-right: 2px;" >
+    <p>One Third</p>
+  </div>
+
+  <div class="column leftside" style="width: 5%;" >
+    <p></p>
+  </div>
+  
+  <div class="column middle" style="width: 64%; background : blue; padding-right: 2px;">
+    <p>Two Third</p>
+  </div>
+</div>
+
+<div class="row">.</div>
+
+
+<div class="row">
+  <div class="column middle" style="width: 64%; background : blue; padding-right: 2px;">
+    <p>Two Third</p>
+  </div>
+
+  <div class="column leftside" style="width: 5%;" >
+    <p></p>
+  </div>
+
+  <div class="column leftside" style="width: 31%; background : skyblue; padding-right: 2px;" >
+    <p>One Third</p>
+  </div>
+  
+</div>
+
+
+
+
+
+
+<div class="row">
+  <h3>Quarter Columns</h3>
+  <div class="column leftside" style="width: 22%; background : skyblue; padding-right: 2px;" >
+    <p>One Quarter</p>
+  </div>
+  <div class="column leftside" style="width: 4%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 22%; background : blue; padding-right: 2px;">
+    <p>One Quarter</p>
+  </div>
+  <div class="column leftside" style="width: 4%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 22%; background : skyblue; padding-right: 2px;">
+    <p>One Quarter</p>
+  </div>
+  <div class="column leftside" style="width: 4%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 22%; background : blue; padding-right: 2px;">
+    <p>One Quarter</p>
+  </div>
+</div>
+<div class="row">.</div>
+
+
+<div class="row">
+  <div class="column leftside" style="width: 23%; background : skyblue; padding-right: 2px;" >
+    <p>One Quarter</p>
+  </div>
+  <div class="column leftside" style="width: 4%;" >
+    <p></p>
+  </div>
+
+  <div class="column leftside" style="width: 23%; background : blue; padding-right: 2px;" >
+    <p>One Quarter</p>
+  </div>
+  <div class="column leftside" style="width: 4%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 46%; background : skyblue; padding-right: 2px;">
+    <p>Two Quarter</p>
+  </div>
+</div>
+
+<div class="row">.</div>
+
+<div class="row">
+  <div class="column middle" style="width: 46%; background : blue; padding-right: 2px;">
+    <p>Two Quarter</p>
+  </div>
+  <div class="column leftside" style="width: 4%;" >
+    <p></p>
+  </div>
+  <div class="column leftside" style="width: 23%; background : skyblue; padding-right: 2px;" >
+    <p>One Quarter</p>
+  </div>
+  <div class="column leftside" style="width: 4%;" >
+    <p></p>
+  </div>
+  <div class="column leftside" style="width: 23%; background : blue; padding-right: 2px;" >
+    <p>One Quarter</p>
+  </div>
+</div>
+
+<div class="row">.</div>
+
+
+<div class="row">
+  <div class="column leftside" style="width: 23%; background : skyblue; padding-right: 2px;" >
+    <p>One Quarter</p>
+  </div>
+  <div class="column leftside" style="width: 4%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 46%; background : blue; padding-right: 2px;">
+    <p>Two Quarter</p>
+  </div>
+  <div class="column leftside" style="width: 4%;" >
+    <p></p>
+  </div>
+  <div class="column leftside" style="width: 23%; background : skyblue; padding-right: 2px;" >
+    <p>One Quarter</p>
+  </div>
+</div>
+
+<div class="row">.</div>
+
+
+<div class="row">
+  <div class="column leftside" style="width: 24%; background : skyblue; padding-right: 2px;" >
+    <p>One Quarter</p>
+  </div>
+  <div class="column leftside" style="width: 4%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 72%; background : blue; padding-right: 2px;">
+    <p>Three Quarter</p>
+  </div>
+</div>
+
+<div class="row">.</div>
+
+
+<div class="row">
+  <div class="column middle" style="width: 72%; background : blue; padding-right: 2px;">
+    <p>Three Quarter</p>
+  </div>
+  <div class="column leftside" style="width: 4%;" >
+    <p></p>
+  </div>
+  <div class="column leftside" style="width: 24%; background : skyblue; padding-right: 2px;" >
+    <p>One Quarter</p>
+  </div>
+</div>
+
+
+<div class="row">
+  <h3>Fifth Columns</h3>
+  <div class="column leftside" style="width: 18%; background : skyblue; padding-right: 2px;" >
+    <p>One Fifth</p>
+  </div>
+  <div class="column leftside" style="width: 2.5%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 18%; background : blue; padding-right: 2px;">
+    <p>One Fifth</p>
+  </div>
+  <div class="column leftside" style="width: 2.5%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 18%; background : skyblue; padding-right: 2px;">
+    <p>One Fifth</p>
+  </div>
+  <div class="column leftside" style="width: 2.5%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 18%; background : blue; padding-right: 2px;">
+    <p>One Fifth</p>
+  </div>
+  <div class="column leftside" style="width: 2.5%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 18%; background : skyblue; padding-right: 2px;">
+    <p>One Fifth</p>
+  </div>
+</div>
+<div class="row">.</div>
+
+
+<div class="row">
+  <div class="column leftside" style="width: 18%; background : skyblue; padding-right: 2px;" >
+    <p>One Fifth</p>
+  </div>
+  <div class="column leftside" style="width: 3.33%;" >
+    <p></p>
+  </div>
+  <div class="column leftside" style="width: 18%; background : blue; padding-right: 2px;" >
+    <p>One Fifth</p>
+  </div>
+  <div class="column leftside" style="width: 3.33%;" >
+    <p></p>
+  </div>
+  <div class="column leftside" style="width: 18%; background : skyblue; padding-right: 2px;" >
+    <p>One Fifth</p>
+  </div>
+  <div class="column leftside" style="width: 3.33%;" >
+    <p></p>
+  </div>
+  
+  <div class="column middle" style="width: 36%; background : blue; padding-right: 2px;">
+    <p>Two Fifth</p>
+  </div>
+</div>
+
+<div class="row">.</div>
+
+
+<div class="row">
+  <div class="column leftside" style="width: 18%; background : skyblue; padding-right: 2px;" >
+    <p>One Fifth</p>
+  </div>
+  <div class="column leftside" style="width: 5%;" >
+    <p></p>
+  </div>
+  <div class="column leftside" style="width: 18%; background : blue; padding-right: 2px;" >
+    <p>One Fifth</p>
+  </div>
+  <div class="column leftside" style="width: 5%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 54%; background : skyblue; padding-right: 2px;">
+    <p>Three Fifth</p>
+  </div>
+</div>
+<div class="row">.</div>
+
+
+<div class="row">
+  <div class="column leftside" style="width: 19%; background : skyblue; padding-right: 2px;" >
+    <p>One Fifth</p>
+  </div>
+  <div class="column leftside" style="width: 5%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 76%; background : blue; padding-right: 2px;">
+    <p>Four Fifth</p>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <h3>Sixth Columns</h3>
+  <div class="column leftside" style="width: 15%; background : skyblue; padding-right: 2px;" >
+    <p>One Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 2%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 15%; background : blue; padding-right: 2px;">
+    <p>One Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 2%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 15%; background : skyblue; padding-right: 2px;">
+    <p>One Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 2%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 15%; background : blue; padding-right: 2px;">
+    <p>One Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 2%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 15%; background : skyblue; padding-right: 2px;">
+    <p>One Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 2%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 15%; background : blue; padding-right: 2px;">
+    <p>One Sixth</p>
+  </div>
+</div>
+<div class="row">.</div>
+
+
+<div class="row">
+  <div class="column leftside" style="width: 15%; background : skyblue; padding-right: 2px;" >
+    <p>One Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 2.5%;" >
+    <p></p>
+  </div>
+  <div class="column leftside" style="width: 15%; background : blue; padding-right: 2px;" >
+    <p>One Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 2.5%;" >
+    <p></p>
+  </div>
+  <div class="column leftside" style="width: 15%; background : skyblue; padding-right: 2px;" >
+    <p>One Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 2.5%;" >
+    <p></p>
+  </div>
+  <div class="column leftside" style="width: 15%; background : blue; padding-right: 2px;" >
+    <p>One Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 2.5%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 30%; background : skyblue; padding-right: 2px;">
+    <p>Two Sixth</p>
+  </div>
+</div>
+
+<div class="row">.</div>
+
+
+<div class="row">
+  <div class="column leftside" style="width: 15.15%; background : skyblue; padding-right: 2px;" >
+    <p>One Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 3%;" >
+    <p></p>
+  </div>
+  <div class="column leftside" style="width: 15.15%; background : blue; padding-right: 2px;" >
+    <p>One Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 3%;" >
+    <p></p>
+  </div>
+  <div class="column leftside" style="width: 15.15%; background : skyblue; padding-right: 2px;" >
+    <p>One Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 3%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 45.45%; background : blue; padding-right: 2px;">
+    <p>Three Sixth</p>
+  </div>
+</div>
+<div class="row">.</div>
+
+
+<div class="row">
+  <div class="column leftside" style="width: 15.5%; background : skyblue; padding-right: 2px;" >
+    <p>One Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 3.5%;" >
+    <p></p>
+  </div>
+  <div class="column leftside" style="width: 15.5%; background : blue; padding-right: 2px;" >
+    <p>One Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 3.5%;" >
+    <p></p>
+  </div>
+  <div class="column middle" style="width: 62%; background : skyblue; padding-right: 2px;">
+    <p>Four Sixth</p>
+  </div>
+</div>
+
+
+<div class="row">.</div>
+
+
+<div class="row">
+  <div class="column leftside" style="width: 31%; background : skyblue; padding-right: 2px;" >
+    <p>Two Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 3.5%;" >
+    <p></p>
+  </div>
+  <div class="column leftside" style="width: 15.5%; background : blue; padding-right: 2px;" >
+    <p>One Sixth</p>
+  </div>
+  <div class="column leftside" style="width: 3.5%;" >
+    <p></p>
+  </div> 
+  <div class="column middle" style="width: 46.5%; background : skyblue; padding-right: 2px;">
+    <p>Three Sixth</p>
+  </div>
+</div>
+
+</div>
+
+  
+</body>
+</html>
